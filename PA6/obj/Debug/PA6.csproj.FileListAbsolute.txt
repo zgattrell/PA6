@@ -1,0 +1,14 @@
+C:\Users\zacha\source\repos\PA6\PA6\bin\Debug\PA6.exe.config
+C:\Users\zacha\source\repos\PA6\PA6\bin\Debug\PA6.exe
+C:\Users\zacha\source\repos\PA6\PA6\bin\Debug\PA6.pdb
+C:\Users\zacha\source\repos\PA6\PA6\obj\Debug\PA6.csprojAssemblyReference.cache
+C:\Users\zacha\source\repos\PA6\PA6\obj\Debug\PA6.frmCWID.resources
+C:\Users\zacha\source\repos\PA6\PA6\obj\Debug\PA6.Properties.Resources.resources
+C:\Users\zacha\source\repos\PA6\PA6\obj\Debug\PA6.csproj.GenerateResource.cache
+C:\Users\zacha\source\repos\PA6\PA6\obj\Debug\PA6.csproj.CoreCompileInputs.cache
+C:\Users\zacha\source\repos\PA6\PA6\obj\Debug\PA6.exe
+C:\Users\zacha\source\repos\PA6\PA6\obj\Debug\PA6.pdb
+C:\Users\zacha\source\repos\PA6\PA6\obj\Debug\PA6.frmMain.resources
+C:\Users\zacha\source\repos\PA6\PA6\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zacha\source\repos\PA6\PA6\bin\Debug\Newtonsoft.Json.xml
+C:\Users\zacha\source\repos\PA6\PA6\obj\Debug\PA6.csproj.CopyComplete
