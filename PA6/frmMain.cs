@@ -103,5 +103,47 @@ namespace PA6
             BookFile.SaveBook(myBook, cwid, "edit");
             loadList();
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            Book myBook = (Book)lstBooks.SelectedItem;
+
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to delete?", "Delete", MessageBoxButtons.YesNo);
+
+            if(dialogResult == DialogResult.Yes)
+            {
+                BookFile.DeleteBook(myBook, cwid);
+                loadList();
+            }
+
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            Book myBook = (Book)lstBooks.SelectedItem;
+            frmEdit myForm = new frmEdit(myBook, "edit", cwid);
+            if(myForm.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+            else
+            {
+                loadList();
+            }
+        }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            Book myBook = new Book();
+            frmEdit myForm = new frmEdit(myBook, "new", cwid);
+            if (myForm.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+            else
+            {
+                loadList();
+            }
+        }
     }
 }

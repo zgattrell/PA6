@@ -12,3 +12,4 @@ C:\Users\zacha\source\repos\PA6\PA6\obj\Debug\PA6.frmMain.resources
 C:\Users\zacha\source\repos\PA6\PA6\bin\Debug\Newtonsoft.Json.dll
 C:\Users\zacha\source\repos\PA6\PA6\bin\Debug\Newtonsoft.Json.xml
 C:\Users\zacha\source\repos\PA6\PA6\obj\Debug\PA6.csproj.CopyComplete
+C:\Users\zacha\source\repos\PA6\PA6\obj\Debug\PA6.frmEdit.resources

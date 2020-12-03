@@ -16,7 +16,7 @@ namespace PA6
 
 
             //URL
-            string url = @"https://lucas-swami-api.herokuapp.com/books/" + cwid;
+            string url = @"http://lucas-swami-api.herokuapp.com/books/" + cwid;
 
             //Route
             using (var httpClient = new HttpClient())
@@ -31,19 +31,22 @@ namespace PA6
                 return myBooks;
             }
 
+
+
         }
 
         public static void SaveBook(Book myBook, string cwid, string mode)
         {
             var content = new StringContent(JsonConvert.SerializeObject(myBook).ToString(), Encoding.UTF8, "application/json");
             string url;
+
             if (mode == "edit")
             {
-                url = @"https://lucas-swami-api.herokuapp.com/books/" + cwid + "/" + myBook._id;
+                url = @"http://lucas-swami-api.herokuapp.com/books/" + myBook._id;
             }
             else
             {
-                url = @"https://lucas-swami-api.herokuapp.com/books/" + cwid;
+                url = @"http://lucas-swami-api.herokuapp.com/books"; // + cwid;
             }
 
             using (var httpClient = new HttpClient())
@@ -66,7 +69,7 @@ namespace PA6
 
         public static void DeleteBook(Book myBook, string cwid)
         {
-            string url = @"http://159.89.235.64:3000/books/" + cwid + "/" + myBook._id;
+            string url = @"http://lucas-swami-api.herokuapp.com/books/" + myBook._id;
             using (var httpClient = new HttpClient())
             {
                 httpClient.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36");
